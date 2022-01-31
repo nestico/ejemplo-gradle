@@ -1,14 +1,14 @@
 pipeline {
     agent any
     environment {
-        NEXUS_USER         = credentials('user-nexus')
-        NEXUS_PASSWORD     = credentials('password-nexus')
+        NEXUS_USER         = credentials('USER-NEXUS')
+        NEXUS_PASSWORD     = credentials('PASS-NEXUS')
     }
     parameters {
         choice(
             name:'compileTool',
             choices: ['Maven', 'Gradle'],
-            description: 'Seleccione herramienta de compilacion'
+            description: 'Seleccione herramienta de compilacion Ernesto'
         )
     }
     stages {
