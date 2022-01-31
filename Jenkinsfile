@@ -33,8 +33,7 @@ pipeline {
                                 mavenAssetList: [
                                     [classifier: '',
                                     extension: '.jar',
-                                    filePath: 'DevOpsUsach2020-0.0.1.jar'
-                                    //filePath: 'build/libs/DevOpsUsach2020-0.0.1.jar'
+                                    filePath: 'build/libs/DevOpsUsach2020-0.0.1.jar'
                                 ] // 'build/libs/DevOpsUsach2020-0.0.1.jar'  NO SE ENCUENTRA ESTE DIRECTORIO EN NEXUS
                             ],
                                 mavenCoordinate: [
